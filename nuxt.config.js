@@ -2,7 +2,7 @@ import { resolve } from 'path';
 
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: 'nuxt-todo-list',
+    base: '/nuxt-todo-list/',
   },
 } : {};
 

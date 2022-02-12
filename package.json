@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "db:serve": "json-server --watch db.json --port=3001",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "dev": "nuxt",
     "build": "nuxt build",
     "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
