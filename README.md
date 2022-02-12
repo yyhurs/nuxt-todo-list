@@ -1,6 +1,6 @@
 # nuxt-todo-list
 
-UI：[Figma](https://www.figma.com/file/oH1EtFeZPHl3LQLYtpzdpL/%E5%89%8D%E6%B8%AC?node-id=0%3A1)
+UI：[點我前往 Figma](https://www.figma.com/file/oH1EtFeZPHl3LQLYtpzdpL/%E5%89%8D%E6%B8%AC?node-id=0%3A1)
 
 ## 說明
 Todo List 的 CRUD 用 json server 模擬 call api 的行為，所以要 demo 的話必須把專案 clone 到本地端
