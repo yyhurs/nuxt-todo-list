@@ -1,0 +1,40 @@
+@mixin btn-color($color, $bg, $border: transparent) {
+  border: 1px solid $border;
+  color: $color;
+  background: var(--custom-bg, $bg);
+
+  $custom: var(--custom-bg, $bg);
+
+  &:not(.c-btn--disabled):hover {
+    @if type_of($bg) == color {
+      filter: brightness(0.9);
+    }
+  }
+
+  &:not(.c-btn--disabled):active {
+    @if type_of($bg) == color {
+      filter: brightness(0.8);
+    }
+  }
+}
+
+@mixin btn-disabled() {
+  &.c-btn--disabled,
+  &[disabled] {
+    // opacity: var(--btn-disabled-opacity);
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+@mixin btn-bg {
+  &--primary {
+    @include btn-color(var(--font-active-color), var(--primary-color));
+  }
+
+  &--default {
+    @include btn-color(var(--primary-color), #fff, var(--primary-color));
+  }
+
+  @include btn-disabled;
+}

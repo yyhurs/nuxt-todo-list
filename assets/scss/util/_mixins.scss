@@ -1,0 +1,24 @@
+// breakpoint
+@mixin laptop {
+  @media (max-width: $w-laptop) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $w-tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $w-mobile) {
+    @content;
+  }
+}
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

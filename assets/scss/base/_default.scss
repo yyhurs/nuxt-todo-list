@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
+  color: var(--font-normal-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--primary-bg);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
