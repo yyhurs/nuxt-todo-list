@@ -21,34 +21,32 @@ Todo List 的 CRUD 用 json server 模擬 call api 的行為，所以要 demo �
 * 加上一套多版型邏輯配置，可在兩種主題色系中切換（原本的 UI 主題、Netflix 主題）
 * BEM 命名規則 + OOCSS 設定 global style + SCSS mixin 設定 RWD 斷點
 * 應用自製元件庫概念實作簡易版的元件（@/components 裡 C 開頭的元件，e.g. CBtn、CSvgIcon）
+* 點擊 checkbox 會 toggle 該筆待辦事項的狀態並 patch 該資料的狀態（isChecked 會被設成 true 或 false）
 
 ## 題目
-請使用 Nuxt.js 實作一個 Todo list，需求如下： 
-● 請使用 Vuex 實作 Todo list 資料邏輯的部分 
-● 排版 UI： 
-○ 點我前往 Figma 
-■ Tip: 如果要 inspect，需要先登入 
-○ 作答請上傳到 GitHub 設置公開並寄回連結 
-● 排版請使用 css： flex box 進行排版： 
-○ 需要設定 flex-grow, flex-shrink 和 flex-basis 
-○ 不可使用 現成的 css 框架 
-● UI 各區域邏輯說明： 
-Header 
-1 請使用 position: fixed 實作 
-2 Icon不需要設定任何動作
-Input 
-1 不一定要綁在最下方，可跟著 Todo list 長 2 可使用鍵盤的 enter 鍵或是點 button 送出
-右側送出按鈕 
-1 送出時，請顯示出 loading 或 skeleton 後等待數秒後 加上 list 中，模擬新增時使用 API 進行新增的狀況
-垃圾桶 
-1 需模擬刪除時使用 API 進行刪除的狀況
-
-
-
-其他 
-● 善用 component 的概念實作內容 
-● 加分 
-○ 加上 i18n 
-○ 將 icon(svg) 加到 components 中 
-○ 使用 scss 並使用 mixin 或是 global styles 
+請使用 Nuxt.js 實作一個 Todo list，需求如下：   
+● 請使用 Vuex 實作 Todo list 資料邏輯的部分   
+● 排版 UI：   
+○ 點我前往 Figma   
+■ Tip: 如果要 inspect，需要先登入   
+○ 作答請上傳到 GitHub 設置公開並寄回連結   
+● 排版請使用 css： flex box 進行排版：   
+○ 需要設定 flex-grow, flex-shrink 和 flex-basis   
+○ 不可使用 現成的 css 框架   
+● UI 各區域邏輯說明：   
+Header   
+1 請使用 position: fixed 實作   
+2 Icon不需要設定任何動作  
+Input   
+1 不一定要綁在最下方，可跟著 Todo list 長 2 可使用鍵盤的 enter 鍵或是點 button 送出   
+右側送出按鈕   
+1 送出時，請顯示出 loading 或 skeleton 後等待數秒後 加上 list 中，模擬新增時使用 API 進行新增的狀況  
+垃圾桶    
+1 需模擬刪除時使用 API 進行刪除的狀況   
+其他    
+● 善用 component 的概念實作內容    
+● 加分    
+○ 加上 i18n    
+○ 將 icon(svg) 加到 components 中    
+○ 使用 scss 並使用 mixin 或是 global styles    
 ○ 任何你覺得可以加分的項目
