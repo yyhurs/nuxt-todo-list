@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{344:function(e,t,n){"use strict";n.r(t),t.default={global:{__theme:"Theme",__lang:"Language",themeName:{__general:"HandsUP",__netflix:"Netflix"}},components:{todoList:{__title:"Todo List",__inputPlaceholder:"Please enter what to do"}}}}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{346:function(t,n,e){"use strict";e.r(n);var o={name:"IndexPage",components:{TodoList:e(336).default}},l=e(25),component=Object(l.a)(o,(function(){var t=this.$createElement;return(this._self._c||t)("todo-list")}),[],!1,null,null,null);n.default=component.exports;installComponents(component,{TodoList:e(336).default})}}]);
